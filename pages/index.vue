@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
   <div>
-    <integrantes/>
+    <integrantes />
   </div>
 </template>

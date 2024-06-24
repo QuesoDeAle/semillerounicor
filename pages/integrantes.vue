@@ -1,5 +1,5 @@
 <template>
     <div>
-        <Integrantes/>
+        <Integrantes />
     </div>
 </template>
