@@ -1,3 +1,12 @@
+<script setup>
+const props = defineProps(
+  {
+    semillero: Object,
+    facultad: String
+  }
+)
+</script>
+
 <template>
 
   <h2>{{ props.facultad }}</h2>
@@ -10,12 +19,3 @@
     </DataTable>
   </div>
 </template>
-
-<script setup>
-const props = defineProps(
-  {
-    semillero: Object,
-    facultad: String
-  }
-)
-</script>
